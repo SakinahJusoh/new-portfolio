@@ -3,83 +3,6 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { createClient } from "../../utils/supabase/server";
 
-// const skills = [
-//   {
-//     category: "Technical",
-//     title: "Programming & Development",
-//     items: [
-//       "Java",
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//       "React.js",
-//       "Flutter",
-//       "TailwindCSS",
-//     ],
-//   },
-//   {
-//     category: "Creative",
-//     title: "Design & Creative Tools",
-//     items: ["Adobe Photoshop", "Canva", "Figma", "Capcut"],
-//   },
-//   {
-//     category: "Soft Skills",
-//     title: "Communication Collaboration Adaptable",
-//     items: [],
-//   },
-// ];
-
-// const projects = [
-//   {
-//     image: "/images/image 6.svg",
-//     title: "Library Management System",
-//     description:
-//       "A modern solution design to streamlined and enhance traditional library operations. It enables users to easily search, borrow and return materials through their mobile devices.",
-//   },
-//   {
-//     image: "/images/Job tracking app 4.svg",
-//     title: "Job Application Tracker",
-//     description:
-//       "A platform designed to assist job seekers in managing their applications efficiently. It features advanced job search filters, dashboard for tracking application progress and reminders for important dates such as deadlines and interviews.",
-//   },
-//   {
-//     image: "/images/calculator.svg",
-//     title: "Easy Calculator",
-//     description:
-//       "A simple mobile tools designed to perform everyday mathematical operations easily. It supports basic function addition, subtraction, multiplication and division along with advance features such as percentage calculations and complex expressions.",
-//   },
-// ];
-
-// const education = [
-//   {
-//     title: "Universiti Malaysia Terengganu",
-//     period: "2022 - Present",
-//     course: "Bachelor of Computer Science (Mobile Computing) with Honors",
-//     image: "/images/umt.jpeg",
-//   },
-//   {
-//     title: "Kolej Matrikulasi Pahang",
-//     period: "2021 - 2022",
-//     course: "Science (Physical Science)",
-//     image: "/images/matrik.jpeg",
-//   },
-// ];
-
-// const about = [
-//   {
-//     image: "/images/chagee.jpg",
-//     title: "Chagee lover",
-//   },
-//   {
-//     image: "/images/travel.jpeg",
-//     title: "Traveller",
-//   },
-//   {
-//     image: "/images/happyme.jpeg",
-//     title: "Happy Go Lucky",
-//   },
-// ];
-
 export default async function Portfolio() {
   // skills
   interface Iskill {
@@ -196,7 +119,7 @@ export default async function Portfolio() {
           WORKS
         </p>
         <h2 className="text-3xl md:text-4xl font-playfair font-semibold text-[#391400] mb-10">
-          Past projets I've worked on
+          Past projets I&apos;ve worked on
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
